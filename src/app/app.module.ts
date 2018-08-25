@@ -11,6 +11,7 @@ import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { HomeComponent } from './home/home.component';
 import { ContainerComponent } from './shared/components/container/container.component';
+import { ReleaseNotesComponent } from './release-notes/release-notes.component';
 
 registerLocaleData(en);
 
@@ -18,7 +19,8 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     HomeComponent,
-    ContainerComponent
+    ContainerComponent,
+    ReleaseNotesComponent
   ],
   imports: [
     BrowserModule,

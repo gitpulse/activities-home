@@ -1,10 +1,13 @@
-.header-container {
+.container {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 40px 16px;
+  padding: 0 16px;
   max-width: 1012px;
-  height: 221px;
+}
+
+.header-container {
+  padding: 40px 16px;
 
   .logo-wrapper {
     display: flex;
@@ -30,6 +33,14 @@
       font-size: 16px;
       line-height: 1.5;
       color: #9f7be1;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.active {
+        color: #ffffff;
+      }
     }
   }
 }

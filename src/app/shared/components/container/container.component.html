@@ -1,4 +1,4 @@
-<nz-row class="header-container">
+<nz-row class="header-container container">
   <nz-col nzXs="24" nzSm="20">
     <div class="logo-wrapper">
       <a href="/">
@@ -6,17 +6,17 @@
       </a>
     </div>
     <div class="nav-wrapper">
-      <a href="/" class="nav-item">Overview</a>
-      <a href="#" class="nav-item">Release Notes</a>
+      <a routerLink="/" class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Overview</a>
+      <a routerLink="/release-notes" class="nav-item" routerLinkActive="active">Release Notes</a>
     </div>
   </nz-col>
 </nz-row>
-<nz-row class="body-container">
+<nz-row class="body-container container">
     <nz-col nzXs="24" nzSm="20">
       <router-outlet></router-outlet>
     </nz-col>
 </nz-row>
-<nz-row class="footer-container">
+<nz-row class="footer-container container">
     <nz-col nzXs="24" nzSm="20">
 
     </nz-col>

@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px 16px;
+  max-width: 1012px;
+  height: 221px;
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 96px;
+      height: 96px;
+    }
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    height: 40px;
+
+    .nav-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #9f7be1;
+    }
+  }
+}

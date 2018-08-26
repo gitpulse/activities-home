@@ -32,14 +32,14 @@
       margin: 8px;
       font-size: 16px;
       line-height: 1.5;
-      color: #000000;
+      color: #aaaaaa;
 
       &:hover {
         text-decoration: underline;
       }
 
       &.active {
-        color: #8f4949;
+        color: #000000;
       }
     }
   }

@@ -12,6 +12,7 @@ import en from '@angular/common/locales/en';
 import { HomeComponent } from './home/home.component';
 import { ContainerComponent } from './shared/components/container/container.component';
 import { ReleaseNotesComponent } from './release-notes/release-notes.component';
+import { MomentModule } from 'ngx-moment';
 
 registerLocaleData(en);
 
@@ -20,7 +21,8 @@ registerLocaleData(en);
     AppComponent,
     HomeComponent,
     ContainerComponent,
-    ReleaseNotesComponent
+    ReleaseNotesComponent,
+    MomentModule,
   ],
   imports: [
     BrowserModule,

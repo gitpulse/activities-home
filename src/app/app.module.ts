@@ -22,7 +22,6 @@ registerLocaleData(en);
     HomeComponent,
     ContainerComponent,
     ReleaseNotesComponent,
-    MomentModule,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +30,7 @@ registerLocaleData(en);
     HttpClientModule,
     NgZorroAntdModule,
     AppRoutingModule,
+    MomentModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

@@ -2,5 +2,9 @@
   <div class="title">
     Release notes for GitHub Activities
   </div>
-  <div class="contents"></div>
+  <div class="contents">
+    <div class="row-wrapper" *ngFor="let releaseNote of releaseNotes">
+        <app-release-note-row releaseNote="releaseNote"></app-release-note-row>
+    </div>
+  </div>
 </div>

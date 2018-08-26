@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { ContainerComponent } from './shared/components/container/container.component';
 import { ReleaseNotesComponent } from './release-notes/release-notes.component';
 import { MomentModule } from 'ngx-moment';
+import { ReleaseNoteRowComponent } from './release-notes/shared/release-note-row/release-note-row.component';
 
 registerLocaleData(en);
 
@@ -22,6 +23,7 @@ registerLocaleData(en);
     HomeComponent,
     ContainerComponent,
     ReleaseNotesComponent,
+    ReleaseNoteRowComponent,
   ],
   imports: [
     BrowserModule,
